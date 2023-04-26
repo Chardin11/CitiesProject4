@@ -21,6 +21,12 @@ color: #ffffff;
 
 /* main page */
 
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+
 #profilePic {
     width: 200px;
     height: 200px;
