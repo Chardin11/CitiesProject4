@@ -1,0 +1,190 @@
+
+body {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+footer {
+text-align: center;
+background-color: black;
+color: #ffffff;
+}
+
+/* main page */
+
+#profilePic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#introDiv {
+max-width: 60vw;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#bio {
+    display: flex;
+    flex-direction: column;
+}
+
+#bio img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+#cardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 60vw;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#conclBody {
+    margin-top: 50px;
+    position: relative;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
+
+/* Cities pages */
+.imgContainer {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }    
+
+.mapsDiv {
+    max-width: fit-content;
+}
+
+.geoMaps, .bedrockMap {
+    max-width: fit-content;
+}
+
+.geoMaps img, .bedrockMap img {
+    max-width: 500px;
+    max-height: 500px;
+
+}
+
+.geoMaps {
+    margin-left: 60px;
+}
+
+.bedrockMap {
+    margin-left: 120px;
+}
+
+.cityInfocontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cityInfocontainer h2 {
+    text-align: center;
+}
+
+.cityFacts {
+    border-right: 1px solid black;
+}
+
+.cityPlaces ul li {
+    list-style-type: none;
+}
+
+.cityTopology {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cityTopology h2 {
+    text-align: center;
+}
+
+.geoType {
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+.bedrockAge {
+    padding: 10px;
+}
+
+.cityHazContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cityHazContainer h2 {
+    text-align: center;
+}
+
+.cityMitPlan {
+    border-right: 1px solid black;
+    max-width: 50vw;
+    padding: 10px;
+}
+
+.cityMitShrink {
+    display: block;
+    position: relative;
+    max-width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hazards {
+    padding: 10px;
+}
+
+.hazards a {
+    position: relative;
+    max-width: 10vw;
+    justify-content: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.cityPics {
+    position: relative;
+    width: 700px;
+    text-align: center;
+}
+
+/* WorksCited.html */
+
+#biblio {
+    height: 90vh;
+}
+
+#biblioCard {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    width: 40vw;
+}
+
+#conclusion a {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
